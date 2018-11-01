@@ -5,5 +5,15 @@ import { Injectable } from '@angular/core';
 })
 export class UserService {
 
-  constructor() { }
+  users;
+
+  constructor() { 
+
+    this.users = [{id: 1, name: 'John', posts:["hia!", "i am here", "testing this out"]}];
+  }
+
+  getUsers(){
+    return this.users.map( u => u);
+  }
+  
 }

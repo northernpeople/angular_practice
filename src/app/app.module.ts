@@ -19,7 +19,7 @@ import { UserService } from './shared/user.service';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [UserService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
