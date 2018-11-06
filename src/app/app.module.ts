@@ -7,6 +7,8 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { PostComponent } from './post/post.component';
 import { UserComponent } from './user/user.component';
 import { UserService } from './shared/user.service';
+import { FormsModule } from '@angular/forms';  //<<<< import it here
+
 
 @NgModule({
   declarations: [
@@ -17,7 +19,8 @@ import { UserService } from './shared/user.service';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

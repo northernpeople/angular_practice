@@ -4,12 +4,8 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-sidebar',
   template: `
   <nav>
+  <h1> Navigation</h1>
   <ul>
-    <li>
-      <a routerLink="">
-        <i class="material-icons">supervised_user_circle</i>
-      </a>
-    </li>
     <li>
       <a routerLink="posts">
         <i class="material-icons">message</i>

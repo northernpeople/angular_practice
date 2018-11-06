@@ -9,7 +9,7 @@ import { Observable } from 'rxjs';
   <h1> Posts by users</h1>
   <ul>
     <li *ngFor='let user of users'>
-      <h2><a routerLink="/details/{{user.id}}"> {{user.name}}</a></h2>
+      <h2><a routerLink="/user/{{user.id}}"> {{user.name}}</a></h2>
       <ul>
         <li *ngFor='let post of user.posts'>
           {{post}}
